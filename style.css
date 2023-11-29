@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Libre+Franklin:wght@600&display=swap');
+ 
+
+h1{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+background-image: url("/170735-macbook-manzana-imac-morena-ambiente-3840x2160\ \(1\).jpg");
+background-size: cover;
+height: 100%;
+}
+.btn {
+  position: relative;
+  top: -20px;
+  display: inline-flex;
+  left: 300px; 
+  width: 6.5em;
+  height: 2.3em;
+  margin: 0.5em;
+  background: rgb(162, 122, 226);
+  color: rgb(239, 237, 237);
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+ }
+ 
+ button:hover {
+  color: rgb(255, 255, 255);
+ }
+ 
+ button:after {
+  content: "";
+  background: rgb(108, 34, 228);
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.9s;
+ }
+
+#texto1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 900px;
+  width: 250px;
+  top: 35px;
+  color: white;
+}
+#texto2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 100px;
+  top: -300px;
+  color: white;
+}
+
+
+
+footer p{
+  position: relative;
+}
+
+img{
+  position: relative;
+  left: 550px;
+  top:200px;
+}
+.logo {
+  position: relative;
+  left : 400px;
+  top: 10px;
+  width: 150px;
+}
